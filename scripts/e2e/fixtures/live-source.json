@@ -1,0 +1,10 @@
+{
+  "title": "How HTTPS Protects Web Traffic",
+  "description": "A concise interactive lesson about TLS and secure communication.",
+  "content": {
+    "script": "When you open a secure website, your browser and the server perform a handshake before any sensitive data is exchanged. During this handshake, they agree on encryption settings and verify identity using certificates. A certificate is signed by a trusted authority, which helps your browser decide whether the server is legitimate. After trust is established, both sides derive shared session keys. From this point, data is encrypted in transit, so attackers on the network cannot read plain text. HTTPS also protects integrity, which means if someone tries to modify packets in transit, the receiver can detect tampering. In practice, HTTPS does not make an application automatically safe. Developers still need secure cookies, proper authentication, and protection against common attacks. But HTTPS is the essential transport layer foundation that keeps credentials, tokens, and private content confidential while moving between client and server.",
+    "animation_markup": "",
+    "transcript_text": "",
+    "audio_url": ""
+  }
+}
